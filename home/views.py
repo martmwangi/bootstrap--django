@@ -13,7 +13,7 @@ def capitalize(request):
 
     return render(request, 'capitalize.html', {})
 
-    def cap(str):
+"""    def cap(str):
         str = input("Enter your statement: ")
     new_str = str.split()
     final_str = []
@@ -21,3 +21,4 @@ def capitalize(request):
         final_str.append(i.replace(i[0], i[0].upper()))
     return ' '.join(final_str)
 print (cap(str))
+"""
